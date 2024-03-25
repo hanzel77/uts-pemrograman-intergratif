@@ -5,10 +5,12 @@
 
 import datetime as datetime
 
-day = datetime.datetime.now().date().day
+day = int(input("Enter a number (today's test date): "))
 result = 1
 
 for i in range(1, day + 1):
     result *= i
 
 print(result)
+
+
