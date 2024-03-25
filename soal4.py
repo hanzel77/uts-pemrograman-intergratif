@@ -5,7 +5,10 @@
 
 class Bmi:
     def __init__(self, weight, height):
+        weight = weight * 0.453592
         self.weight = weight
+
+        height = height *  0.3048
         self.height = height
 
     def BMI_Value(self):
