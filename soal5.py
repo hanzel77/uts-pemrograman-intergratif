@@ -14,7 +14,7 @@ result = 0
 for x in f:
     result += int(x)
 
-print(result)
+print("{:,}".format(result))
 
 
 f.close()
